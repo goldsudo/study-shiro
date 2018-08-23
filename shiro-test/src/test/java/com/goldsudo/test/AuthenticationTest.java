@@ -15,7 +15,7 @@ public class AuthenticationTest {
     @Before
     public void addUser(){
         //构建一个用户令牌
-        simpleAccountRealm.addAccount("Jswang","55555");
+        simpleAccountRealm.addAccount("Jswang","55555","root","admin");
     }
 
     @Test
@@ -32,7 +32,10 @@ public class AuthenticationTest {
         //4.判断是否登陆成功
         System.out.println(subject.isAuthenticated());
         //5.注销
-        subject.logout();
-        System.out.println(subject.isAuthenticated());
+//        subject.logout();
+//        System.out.println(subject.isAuthenticated());
+        //6.角色校验
+        subject.checkRoles("root","admin");
+//        subject.checkRole("asdasdasd");
     }
 }

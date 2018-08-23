@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2dd4f99-f833-40da-bf46-ce18e5e83107" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/AuthenticationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/shiro-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/shiro-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/AuthenticationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/AuthenticationTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,28 +16,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shiro-test/pom.xml">
+      <file leaf-file-name="AuthenticationTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/AuthenticationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="975">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthenticationTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/AuthenticationTest.java">
+      <file leaf-file-name="Subject.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/subject/Subject.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="223">
+              <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -303,20 +293,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535038728318</updated>
-      <workItem from="1535038732159" duration="1733000" />
+      <workItem from="1535038732159" duration="2956000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AuthenticationTest_testAuthentication - 2018.08.23 at 23h 55m 40s.xml">
-      <configuration name="AuthenticationTest.testAuthentication" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AuthenticationTest_testAuthentication - 2018.08.23 at 23h 56m 25s.xml">
-      <configuration name="AuthenticationTest.testAuthentication" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AuthenticationTest_testAuthentication - 2018.08.24 at 00h 01m 25s.xml">
-      <configuration name="AuthenticationTest.testAuthentication" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AuthenticationTest_testAuthentication - 2018.08.24 at 00h 02m 00s.xml">
       <configuration name="AuthenticationTest.testAuthentication" configurationId="JUnit" />
     </history-entry>
@@ -332,9 +313,24 @@
     <history-entry file="AuthenticationTest - 2018.08.24 at 00h 04m 11s.xml">
       <configuration name="AuthenticationTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AuthenticationTest_testAuthentication - 2018.08.24 at 00h 21m 39s.xml">
+      <configuration name="AuthenticationTest.testAuthentication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AuthenticationTest_testAuthentication - 2018.08.24 at 00h 25m 28s.xml">
+      <configuration name="AuthenticationTest.testAuthentication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AuthenticationTest - 2018.08.24 at 00h 25m 41s.xml">
+      <configuration name="AuthenticationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AuthenticationTest_testAuthentication - 2018.08.24 at 00h 26m 08s.xml">
+      <configuration name="AuthenticationTest.testAuthentication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AuthenticationTest - 2018.08.24 at 00h 26m 42s.xml">
+      <configuration name="AuthenticationTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1733000" />
+    <option name="totallyTimeSpent" value="2956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2728" y="-8" width="1936" height="1066" extended-state="6" />
@@ -362,7 +358,7 @@
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.399137" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -377,6 +373,25 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/authc/pam/ModularRealmAuthenticator.class</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/authc/pam/ModularRealmAuthenticator.class</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -388,10 +403,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/mgt/SecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/authc/Authenticator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/authc/UsernamePasswordToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#1980#1981#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/authc/SimpleAccount.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="143" column="23" selection-start-line="143" selection-start-column="23" selection-end-line="143" selection-end-column="23" />
+          <folding>
+            <element signature="e#5493#5494#0" expanded="true" />
+            <element signature="e#5527#5528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/realm/SimpleAccountRealm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/realm/AuthenticatingRealm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="210" selection-start-line="210" selection-end-line="210" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/authc/pam/ModularRealmAuthenticator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/authc/AbstractAuthenticator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/mgt/AuthenticatingSecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/mgt/DefaultSecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="163" selection-start-line="163" selection-end-line="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/subject/support/DelegatingSubject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1748">
+          <caret line="189" column="47" lean-forward="true" selection-start-line="189" selection-start-column="47" selection-end-line="189" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/subject/Subject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/AuthenticationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="975">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
