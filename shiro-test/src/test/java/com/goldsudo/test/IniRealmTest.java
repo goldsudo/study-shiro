@@ -1,4 +1,4 @@
-package com.goldsudo.test.IniRealmTest;
+package com.goldsudo.test;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
