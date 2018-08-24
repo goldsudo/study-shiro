@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2dd4f99-f833-40da-bf46-ce18e5e83107" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/src/test/conf/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/JdbcRealmTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/CustomRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/CustomRealmTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/IniRealmTest/IniRealmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/IniRealmTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,11 +48,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AuthenticationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/AuthenticationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="IniRealmTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/IniRealmTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="450">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,8 +75,8 @@
       <file leaf-file-name="JdbcRealmTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/JdbcRealmTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="147">
+              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,11 +84,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schema.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CustomRealm.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/CustomRealm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="22" column="57" lean-forward="true" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashSet.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/tools/java/jdk1.8/src.zip!/java/util/HashSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="103" column="11" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
+              <folding>
+                <element signature="e#3709#3710#0" expanded="true" />
+                <element signature="e#3746#3747#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomRealmTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/CustomRealmTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schema.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shiro-test/src/test/conf/schema.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="350">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -94,39 +139,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JdbcRealm.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/realm/jdbc/JdbcRealm.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="55" column="38" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="38" />
-              <folding>
-                <element signature="e#2302#2303#0" expanded="true" />
-                <element signature="e#2362#2363#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test_user" pinned="false" current-in-tab="false">
         <entry file="das://e3cb2d02-a693-4888-ad62-16b2d76d1a9d/schema/shiro/table/test_user">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="roles_permissions" pinned="false" current-in-tab="false">
-        <entry file="das://e3cb2d02-a693-4888-ad62-16b2d76d1a9d/schema/shiro/table/roles_permissions">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_roles" pinned="false" current-in-tab="false">
-        <entry file="das://e3cb2d02-a693-4888-ad62-16b2d76d1a9d/schema/shiro/table/user_roles">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -146,6 +160,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>authenticationQuery</find>
+      <find>Collection</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -162,6 +177,8 @@
         <option value="$PROJECT_DIR$/shiro-test/pom.xml" />
         <option value="$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/JdbcRealmTest.java" />
         <option value="$PROJECT_DIR$/shiro-test/src/test/conf/schema.sql" />
+        <option value="$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/CustomRealmTest.java" />
+        <option value="$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/CustomRealm.java" />
       </list>
     </option>
   </component>
@@ -295,7 +312,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.13871376" />
     <property name="project.structure.side.proportion" value="0.44217688" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -309,7 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JdbcRealmTest">
+  <component name="RunManager" selected="JUnit.CustomRealmTest.testAuthentication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -336,7 +353,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AuthenticationTest.testAuthentication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomRealmTest.testAuthentication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shiro-test" />
       <extension name="coverage">
         <pattern>
@@ -347,7 +364,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.goldsudo.test" />
-      <option name="MAIN_CLASS_NAME" value="com.goldsudo.test.AuthenticationTest" />
+      <option name="MAIN_CLASS_NAME" value="com.goldsudo.test.CustomRealmTest" />
       <option name="METHOD_NAME" value="testAuthentication" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -467,19 +484,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.AuthenticationTest.testAuthentication" />
       <item itemvalue="JUnit.AuthenticationTest" />
       <item itemvalue="JUnit.IniRealmTest.testAuthentication" />
       <item itemvalue="JUnit.JdbcRealmTest.testAuthentication" />
       <item itemvalue="JUnit.JdbcRealmTest" />
+      <item itemvalue="JUnit.CustomRealmTest.testAuthentication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomRealmTest.testAuthentication" />
         <item itemvalue="JUnit.JdbcRealmTest" />
         <item itemvalue="JUnit.JdbcRealmTest.testAuthentication" />
         <item itemvalue="JUnit.IniRealmTest.testAuthentication" />
         <item itemvalue="JUnit.AuthenticationTest" />
-        <item itemvalue="JUnit.AuthenticationTest.testAuthentication" />
       </list>
     </recent_temporary>
   </component>
@@ -494,17 +511,11 @@
       <option name="presentableId" value="Default" />
       <updated>1535038728318</updated>
       <workItem from="1535038732159" duration="3865000" />
-      <workItem from="1535085659904" duration="2199000" />
+      <workItem from="1535085659904" duration="3424000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JdbcRealmTest - 2018.08.24 at 13h 00m 30s.xml">
-      <configuration name="JdbcRealmTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JdbcRealmTest - 2018.08.24 at 13h 00m 40s.xml">
-      <configuration name="JdbcRealmTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JdbcRealmTest_testAuthentication - 2018.08.24 at 13h 03m 27s.xml">
       <configuration name="JdbcRealmTest.testAuthentication" configurationId="JUnit" />
     </history-entry>
@@ -529,9 +540,15 @@
     <history-entry file="JdbcRealmTest - 2018.08.24 at 13h 14m 36s.xml">
       <configuration name="JdbcRealmTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CustomRealmTest_testAuthentication - 2018.08.24 at 13h 30m 52s.xml">
+      <configuration name="CustomRealmTest.testAuthentication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomRealmTest_testAuthentication - 2018.08.24 at 13h 31m 22s.xml">
+      <configuration name="CustomRealmTest.testAuthentication" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6064000" />
+    <option name="totallyTimeSpent" value="7289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2728" y="-8" width="1936" height="1066" extended-state="6" />
@@ -547,20 +564,20 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32901832" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32901832" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="Database Console" weight="0.32901832" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17750533" />
-      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.32995737" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.399137" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.23300971" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -579,19 +596,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/authc/pam/ModularRealmAuthenticator.class</url>
-          <line>108</line>
+          <url>file://$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/CustomRealmTest.java</url>
+          <line>18</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/authc/pam/ModularRealmAuthenticator.class</url>
-          <line>54</line>
+          <url>file://$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/CustomRealm.java</url>
+          <line>34</line>
           <properties />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -709,16 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/AuthenticationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" selection-start-line="12" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shiro-test/src/test/conf/user.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -735,16 +742,6 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e3cb2d02-a693-4888-ad62-16b2d76d1a9d/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/IniRealmTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="das://e3cb2d02-a693-4888-ad62-16b2d76d1a9d/schema/shiro/table/users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -799,16 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/JdbcRealmTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://e3cb2d02-a693-4888-ad62-16b2d76d1a9d/schema/shiro/table/roles_permissions.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -818,8 +805,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shiro-test/src/test/conf/schema.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="350">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/AuthenticationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/IniRealmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/CustomRealmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/authc/pam/ModularRealmAuthenticator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/JdbcRealmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tools/java/jdk1.8/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="103" column="11" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
+          <folding>
+            <element signature="e#3709#3710#0" expanded="true" />
+            <element signature="e#3746#3747#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tools/java/jdk1.8/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="204" column="12" selection-start-line="204" selection-start-column="12" selection-end-line="204" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/com/goldsudo/test/CustomRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="22" column="57" lean-forward="true" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -875,7 +937,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>shiro-test</last-edited>
+          <last-edited>study-shiro</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
