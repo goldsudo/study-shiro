@@ -15,3 +15,4 @@
 ### 6.使用jdbcTemplate作为shiro自定义Realm的数据来源
 ### 7.基于aop的shiro注解实现api的角色或者权限过滤（@RequiresRoles用来过滤角色，@RequiresPermissions用来过滤权限）
 ### 8.自定义shiro的filter规则，实现role1 or role2的权限过滤规则（shiro的filter默认只支持role1 and role2）
+### 9.利用redis进行shiro的session缓存
