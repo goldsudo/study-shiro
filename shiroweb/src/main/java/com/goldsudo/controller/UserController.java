@@ -24,6 +24,9 @@ public class UserController {
         } catch (AuthenticationException e) {
             return e.getMessage();
         }
-        return "登录成功";
+        if(subject.hasRole("root")){
+            return "登陆成功，具有root权限";
+        }
+        return "登陆成功，无root权限";
     }
 }

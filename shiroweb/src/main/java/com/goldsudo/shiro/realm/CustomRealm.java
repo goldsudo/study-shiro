@@ -1,5 +1,7 @@
 package com.goldsudo.shiro.realm;
 
+import com.goldsudo.dao.UserDao;
+import com.goldsudo.entity.User;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
@@ -10,19 +12,14 @@ import org.apache.shiro.crypto.hash.Md5Hash;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.util.ByteSource;
+import org.springframework.beans.factory.annotation.Autowired;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class CustomRealm extends AuthorizingRealm {
-    Map<String, String> userMap = new HashMap<>(16);
 
-    {
-        super.setName("custom");
-        userMap.put("Jswang", "ec63f0284164511a75185394766efc0f");
-    }
+    @Autowired
+    private UserDao userDao;
 
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
         String userName = (String) principalCollection.getPrimaryPrincipal();
@@ -42,15 +39,14 @@ public class CustomRealm extends AuthorizingRealm {
     }
 
     private Set<String> getRolesByUserName(String userName) {
-        Set<String> set = new HashSet<>();
-        set.add("root");
-        set.add("admin");
+        List<String> roleList = userDao.queryRolesByUserName(userName);
+        Set<String> set = new HashSet<>(roleList);
         return set;
     }
 
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
         String userName = (String) authenticationToken.getPrincipal();
-        String passWord = userMap.get(userName);
+        String passWord = getPasswordByUserName(userName);
         if (passWord == null) {
             return null;
         }
@@ -59,9 +55,17 @@ public class CustomRealm extends AuthorizingRealm {
         return authenticationInfo;
     }
 
+    private String getPasswordByUserName(String userName) {
+        User user = userDao.getUserByUserName(userName);
+        if (user == null) {
+            return null;
+        }
+        return user.getPassword();
+    }
+
     public static void main(String[] args) {
         //加盐的MD5密码
-        Md5Hash md5Hash = new Md5Hash("55555","goldsudo");
+        Md5Hash md5Hash = new Md5Hash("55555", "goldsudo");
         System.out.println(md5Hash.toString());
     }
 }
