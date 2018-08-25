@@ -6,8 +6,12 @@
     <context:property-placeholder location="classpath:jdbc.properties"/>
     <!--导入spring的dao层配置文件-->
     <import resource="spring-dao.xml"/>
-    <context:component-scan base-package="com.goldsudo"/>
+    <!--导入spring的reids配置文件-->
+    <import resource="spring-redis.xml"/>
 
+    <!--扫描com.goldsudo包下所有java类，寻找spring bean-->
+    <context:component-scan base-package="com.goldsudo"/>
+    <!--定义shiroFilter-->
     <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
         <property name="securityManager" ref="securityManager"/>
         <property name="loginUrl" value="login.html"/>
@@ -29,20 +33,28 @@
             </util:map>
         </property>
     </bean>
-
+    <!--自定义的shiro filter-->
     <bean class="com.goldsudo.filter.RolesOrFilter" id="rolesOrFilter"/>
 
     <!--创建SecurityManger对象-->
     <bean class="org.apache.shiro.web.mgt.DefaultWebSecurityManager" id="securityManager">
         <property name="realm" ref="realm"/>
+        <property name="sessionManager" ref="sessionManager"/>
     </bean>
-
+    <!--配置自定义的Realm-->
     <bean class="com.goldsudo.shiro.realm.CustomRealm" id="realm">
         <property name="credentialsMatcher" ref="credentialsMatcher"/>
     </bean>
+    <!--密码验证时进行md5的加密-->
     <bean class="org.apache.shiro.authc.credential.HashedCredentialsMatcher" id="credentialsMatcher">
         <property name="hashAlgorithmName" value="md5"/>
         <property name="hashIterations" value="1"/>
     </bean>
+
+    <bean class="com.goldsudo.session.CustomSessionManager" id="sessionManager">
+        <property name="sessionDAO" ref="redisSessionDao"/>
+    </bean>
+
+    <bean class="com.goldsudo.session.RedisSessionDao" id="redisSessionDao"/>
 
 </beans>
