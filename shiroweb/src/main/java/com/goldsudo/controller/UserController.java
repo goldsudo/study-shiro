@@ -32,17 +32,34 @@ public class UserController {
         return "登陆成功，无root权限";
     }
 
-    @RequiresRoles(value={"root","admin"},logical = Logical.OR)
+    @RequiresRoles(value = {"root", "admin"}, logical = Logical.OR)
     @RequestMapping(value = "/rootRole.do", method = RequestMethod.GET, produces = "application/json;charset=utf-8")
     @ResponseBody
     public String rootRole() {
         return "这是具有root或admin权限才能访问的api";
     }
 
-    @RequiresRoles("user")
     @RequestMapping(value = "/userRole.do", method = RequestMethod.GET, produces = "application/json;charset=utf-8")
     @ResponseBody
     public String userRole() {
         return "这是具有user权限才能访问的api";
+    }
+
+    @RequestMapping(value = "/deleteFile.do", method = RequestMethod.GET, produces = "application/json;charset=utf-8")
+    @ResponseBody
+    public String deleteFile() {
+        return "这是具有deleteFile权限才能访问的api";
+    }
+
+    @RequestMapping(value = "/updateFile.do", method = RequestMethod.GET, produces = "application/json;charset=utf-8")
+    @ResponseBody
+    public String updateFile() {
+        return "这是具有updateFile权限才能访问的api";
+    }
+
+    @RequestMapping(value = "/addFile.do", method = RequestMethod.GET, produces = "application/json;charset=utf-8")
+    @ResponseBody
+    public String addFile() {
+        return "这是具有addFile权限才能访问的api";
     }
 }
